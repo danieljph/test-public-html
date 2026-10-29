@@ -4,26 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Screen iframe</title>
-    <style>
-        /* Remove default margins and hide scrollbars on the main window */
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden; 
-            background-color: #000; /* Optional: background fallback */
-        }
-
-        /* Make the iframe cover the exact viewport dimension */
-        iframe {
-            display: block;       /* Eliminates inline bottom margin gap */
-            width: 100vw;         /* 100% of viewport width */
-            height: 100vh;        /* 100% of viewport height */
-            border: none;         /* Removes default browser border */
-        }
-    </style>
+    <title>Test iFrame</title>
 </head>
 
 <body>
@@ -32,7 +13,6 @@
 
 <iframe
   src="https://app-uat.doku.com/wt-frontend-transaction/dynamic-payment-page?signature=HMACSHA256%3DQ36wHHltxo3K0OCZ6CfdmCi7DN8v1Hy2x7QL2OffNJQ%3D&clientId=BRN-0203-1728283759342&invoiceNumber=INV_CC_1793262240578&requestId=RID_PP_1793262240578"
-  allow="fullscreen"
   sandbox="allow-scripts"
 >
 </iframe>
